@@ -38,7 +38,7 @@ window.onload = function(){
 	// test and debug
 	for(var i=0;i<100;i++){
 		for(var v=i+1;v<101;v++){
-			if(Math.random() > 0.85){
+			if(Math.random() > 0.9){
 				var Link = new Array();
 				Link.push(i);
 				Link.push(v);
@@ -47,8 +47,7 @@ window.onload = function(){
 		}
 	}
 	
-	nodes.push(new Node(0,0,0,30,world));
-	//alert(viewportHeight/2);
+	nodes.push(new Node(0,0,70,world));
 	//---------------
 }
 
